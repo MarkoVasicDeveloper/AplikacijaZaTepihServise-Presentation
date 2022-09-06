@@ -1,0 +1,101 @@
+.neonContainer{
+    position: relative;
+    width: 100%;
+    padding-top: 4rem;
+    animation: hide 10s ease forwards;
+}
+
+.neonContainer > h3{
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 1rem;
+    font-size: 6rem;
+    text-transform: uppercase;
+    text-shadow: 0 0 20px rgb(4, 129, 179),
+                 0 0 40px rgb(4, 129, 179);
+    position: relative;
+    letter-spacing: 3px;
+    z-index: 4;
+}
+
+.neonContainer > .uvLampDiv{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: absolute;
+    top: 0%;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to right, #000, #333);
+    background-attachment: fixed;
+    z-index: 10;
+}
+
+.animateLampDiv{
+    animation: showNeonText 2s ease-in forwards;
+    animation-delay: 2s;
+}
+
+@keyframes showNeonText {
+    0%{
+        width: 100%;
+    }
+    100%{
+        width: 1%;
+    }
+}
+
+.neonContainer > .uvLampDiv > .lamp{
+    width: 5px;
+    height: 100%;
+    border-radius: 3px;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgb(4, 129, 179),
+                 0 0 40px rgb(4, 129, 179),
+                 0 0 80px rgb(4, 129, 179),
+                 0 0 160px rgb(4, 129, 179);
+    transform: scale(0);
+}
+
+.animateLamp {
+    animation: lamp 3s ease forwards;
+    animation-delay: 1.5s;
+}
+
+@keyframes lamp {
+    0%{
+        transform: scale(0);
+    }
+    12.5%{
+        transform: scale(1);
+    }
+    87.5%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(0);
+    }
+}
+
+@media screen and (max-width: 869px) {
+    .neonContainer > h3{
+        font-size: 3.5rem;
+    }
+
+    .neonContainer > .uvLampDiv{
+        background: linear-gradient(to right, #000, #333);
+        background-attachment: initial;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .neonContainer > h3{
+        font-size: 2.5rem;
+    }
+
+    .neonContainer > .uvLampDiv{
+        background: linear-gradient(to right, #000, #333);
+        background-attachment: initial;
+    }
+}

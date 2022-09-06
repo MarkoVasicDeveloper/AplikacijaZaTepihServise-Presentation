@@ -1,0 +1,100 @@
+.jumpingLetter {
+    /* animation: hide 10s ease forwards; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.jumpingLetter > h3{
+    color: #fec400;
+    font-size: 6rem;
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.jumpingLetter > h3 > span{
+    position: relative;
+    display: inline-block;
+    animation: jumpingLetter 3s ease infinite;
+}
+
+@keyframes jumpingLetter {
+    0%{
+        transform: translateY(0px) rotate(0deg);
+    }
+    40%{
+        transform: translateY(0px) rotate(0deg);
+    }
+    50%{
+        transform: translateY(-120px) rotate(180deg);
+    }
+    60%{
+        transform: translateY(0px) rotate(360deg);
+    }
+    100%{
+        transform: translateY(0px) rotate(360deg);
+    }
+}
+
+.jumpingLetter > h3 > span:nth-child(1) {
+    animation-delay: .5s;
+}
+.jumpingLetter > h3 > span:nth-child(2) {
+    animation-delay: .2s;
+}
+.jumpingLetter > h3 > span:nth-child(3) {
+    animation-delay: .7s;
+}
+.jumpingLetter > h3 > span:nth-child(4) {
+    animation-delay: .9s;
+}
+.jumpingLetter > h3 > span:nth-child(5) {
+    animation-delay: .3s;
+}
+.jumpingLetter > h3 > span:nth-child(6) {
+    animation-delay: .5s;
+}
+.jumpingLetter > h3 > span:nth-child(7) {
+    animation-delay: 1s;
+}
+.jumpingLetter > h3 > span:nth-child(8) {
+    animation-delay: .6s;
+}
+.jumpingLetter > h3 > span:nth-child(9) {
+    animation-delay: 1.1s;
+}
+.jumpingLetter > h3 > span:nth-child(10) {
+    animation-delay: 1.3s;
+}
+.jumpingLetter > h3 > span:nth-child(11) {
+    animation-delay: .2s;
+}
+.jumpingLetter > h3 > span:nth-child(12) {
+    animation-delay: .9s;
+}
+
+@media screen and (max-width:910px) {
+    .jumpingLetter > h3{
+        font-size: 3.7rem;
+        margin-bottom: 2rem;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .jumpingLetter > h3{
+        font-size: 2.2rem;
+        margin-bottom: 2rem;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .jumpingLetter > h3{
+        font-size: 1.5rem;
+    }
+}

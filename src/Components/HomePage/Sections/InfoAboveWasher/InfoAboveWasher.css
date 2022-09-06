@@ -1,0 +1,46 @@
+#infoAboveWasher {
+  width: 100vw;
+  height: calc(100vh - 3px);
+  background-color: #111;
+  padding-top: 10rem;
+  font-family: "Montserrat";
+  color: #fff;
+}
+
+.what_is_washer {
+  width: 80%;
+  margin: 0 auto;
+  font-size: 2rem;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.what_is_washer > h3 {
+  color: #793ea5;
+  margin-bottom: 2rem;
+  font-size: 1.2rem;
+}
+
+@media screen and (max-width:869px) {
+  #infoAboveWasher {
+    padding-top: 5rem;
+  }
+
+  .what_is_washer {
+    width: 100%;
+    padding: 0rem 0.5rem;
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width:340px) {
+
+  .what_is_washer {
+    font-size: 1.2rem;
+  }
+}
+
+@media (orientation:landscape) and (max-width: 700px) {
+  #infoAboveWasher {
+    padding-top: 3rem;
+  }
+}

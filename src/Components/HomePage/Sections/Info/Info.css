@@ -1,0 +1,38 @@
+#info {
+  width: 100vw;
+  height: calc(100vh - 3px);
+  background: linear-gradient(to right, #000, #333);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 3rem;
+}
+
+#info p{
+color: #ffffffdd;
+font-family: "Nunito Sans", sans-serif;
+font-size: 27px;
+text-align: center;
+}
+
+@keyframes hide {
+  0%{
+      opacity: 0;
+  }
+  10%,90%{
+    opacity: 1;
+  }
+  100%{
+      opacity: 0;
+  }
+}
+
+@media screen and (max-width:869px) {
+  #info {
+    padding: 0 1rem;
+  }
+
+  #info p{
+    font-size: 17px;
+  }
+}

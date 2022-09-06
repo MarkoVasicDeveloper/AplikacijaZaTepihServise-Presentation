@@ -1,0 +1,48 @@
+#info .containerDescription{
+    padding: 0rem 2rem;
+    animation: hide 10s ease forwards;
+}
+
+svg{
+    width: 0;
+    height: 0;
+}
+
+#info .containerDescription .descriptionParagraf .title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+#info .fireH3{
+filter: url(#fire);
+font-size: 6rem;
+text-align: center;
+color: #ff8c3b;
+margin: 0;
+margin-left: 2rem;
+text-shadow: 0 0 10px #ff8c3b,
+                0 0 40px #ff8c3b,
+                0 0 80px #ff8c3b;
+-webkit-box-reflect: below -10px linear-gradient(transparent, #0003);
+}
+
+@media screen and (max-width:869px) {
+    #info .fireH3{
+        font-size: 5rem;
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width:500px) {
+    #info .fireH3{
+        font-size: 3rem;
+        margin-left: 0;
+    }
+}
+
+@media (orientation:landscape) and (max-width:700px) {
+    #info .fireH3{
+        font-size: 3rem;
+    }
+}

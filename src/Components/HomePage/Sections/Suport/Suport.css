@@ -1,0 +1,84 @@
+#support {
+  width: 100vw;
+  height: calc(100vh - 3px);
+  background-image: url("../../../../Img/pattern.webp");
+  background-color: #00000055;
+  background-blend-mode: darken;
+  position: relative;
+  z-index: -1;
+  box-sizing: border-box;
+  padding: 6rem 1rem 1rem 1rem;
+}
+
+.support-info {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  z-index: 10;
+}
+
+.support-info > h3 {
+  font-family: "Montserrat";
+  font-size: 1.7rem;
+  color: #793ea5;
+  margin-bottom: 2rem;
+}
+
+.support-info > div > p {
+  font-family: "Nunito Sans", sans-serif;
+  color: #ffffff;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.945;
+}
+
+.dark-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 50%;
+  background-color: #000;
+  z-index: -1;
+}
+
+@media screen and (max-width:869px) {
+  #support {
+    padding: 5rem 1rem 8rem 1rem;
+  }
+
+  .support-info > h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .support-info {
+    width: 100%;
+  }
+
+  .support-info > div > p {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width:500px) {
+  #support {
+    padding: 2rem 1rem 8rem 1rem;
+  }
+}
+
+@media (orientation:landscape) and (max-width: 700px) {
+  #support {
+    padding: 2rem 1rem 8rem 1rem;
+  }
+}
+
+@media (orientation:landscape) and (max-height: 350px) {
+  #support {
+    padding: 2rem 1rem 8rem 1rem;
+  }
+
+  .support-info > div > p {
+    font-size: 1rem;
+  }
+}

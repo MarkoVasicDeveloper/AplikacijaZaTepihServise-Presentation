@@ -1,0 +1,105 @@
+#singUp {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url("../../Img/background-log-in-mini.webp");
+  background-size: cover;
+  background-position: center;
+  background-color: #00000099;
+  background-blend-mode: darken;
+  font-family: "Montserrat";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 2rem 0 0 0;
+}
+
+.singUpContainer {
+  width: min(700px, 90%);
+  background-color: #000000aa;
+  border-radius: 20px;
+  position: relative;
+  padding: 1rem;
+}
+
+.socialSingUp{
+  width: 150px;
+  height: 3rem;
+  position: absolute;
+  top: -1.5rem;
+  right: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 1rem;
+}
+
+.socialSingUp > a{
+  flex-grow: 1;
+}
+
+.socialSingUp > a > svg{
+  width: 100%;
+  font-size: 4rem;
+  color: #fff;
+}
+
+.singUpContainer > .form-header{
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.singUpContainer > .form-header > h1{
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+.singUpContainer > .form-header > svg{
+  width: 30px;
+  font-size: 2rem;
+  margin-right: 1rem;
+}
+
+.singUpContainer > .form-header > svg:hover{
+  cursor: pointer;
+}
+
+.singUpContainer > .singUpForm{
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px , 300px));
+  grid-auto-rows: 40px;
+  gap: 0.5rem;
+  justify-content: center;
+}
+
+.singUpContainer > .submitButton {
+  width: 100%;
+  height: 15%;
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+.singUpContainer > .submitButton > button{
+  width: max(200px);
+  background-color: #793ea5;
+  color: #fff;
+  padding: 0.2rem;
+  text-transform: uppercase;
+  transition: all 1s ease;
+  border: 2px solid transparent;
+}
+
+.singUpContainer > .submitButton > button:hover{
+  background-color: #fec400;
+  border: 2px solid #793ea5;
+}
+
+.singUpContainer > .message{
+  width: 100%;
+  text-align: center;
+  color: #fec400;
+  border-top: 2px solid #333;
+}
