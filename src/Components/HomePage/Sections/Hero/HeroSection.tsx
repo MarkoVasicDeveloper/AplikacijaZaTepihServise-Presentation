@@ -30,20 +30,18 @@ export default function HeroSection() {
         </Suspense>
       </Canvas>
       <div className="container">
-        <div className="titleContainer">
-          <h1>Poslovni Softver</h1>
-          <h1>Poslovni Softver</h1>
-        </div>
+        <h1>Poslovni Softver</h1>
+        <h1>Poslovni Softver</h1>
         <div className="subtitle">
           <h3 ref={h3Tag}>
             Unapredite poslovanje Vaseg tepih servisa uz pomoc Washer poslovnog sofvera!
           </h3>
           <div className="mask"></div>
         </div>
-      </div>
         <div className="heroDescription">
-          <h2>Prvi poslovni softver na balkanu namenjen tepih servisima!</h2>
+          <p>Prvi poslovni softver na balkanu namenjen tepih servisima!</p>
         </div>
+      </div>
     </section>
   );
 }
