@@ -1,6 +1,6 @@
-import { OrbitControls, PerspectiveCamera, Stars } from "@react-three/drei";
+import { OrbitControls, Stars } from "@react-three/drei";
 import { Canvas } from "@react-three/fiber";
-import { Suspense, useEffect, useRef, useState } from "react";
+import { Suspense, useEffect, useRef } from "react";
 import { subtitle } from "../../../../Misc/Subtitle/subtitle";
 import "./Hero.css";
 
@@ -10,6 +10,7 @@ export default function HeroSection() {
 
   useEffect(() => {
     let counter = 0;
+
     const heroInterval = setInterval(() => {
       if(h3Tag.current !== null) 
       h3Tag.current.innerText = subtitle[counter];
@@ -17,7 +18,7 @@ export default function HeroSection() {
       if(counter === subtitle.length) counter = 0;
     }, 10000);
     return () => clearInterval(heroInterval)
-  }, [subtitle])
+  }, [])
   
   
   return (

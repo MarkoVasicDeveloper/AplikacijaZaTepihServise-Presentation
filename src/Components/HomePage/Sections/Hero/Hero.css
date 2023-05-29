@@ -72,7 +72,8 @@
   height: 100%;
   background-color: #000;
   border-right: 5px solid #793ea5;
-  animation: hideText 10000ms linear infinite;
+  animation: hideText linear infinite;
+  animation-duration: 10000ms;
   animation-delay: 2500ms;
 }
 
@@ -80,7 +81,7 @@
   0%{
     width: 0%;
   }
-  50%{
+  50% {
     width: 0%;
   }
   75%{

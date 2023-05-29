@@ -6,11 +6,11 @@ import InfoSection from "./Sections/Info/InfoSection";
 import InfoAboreWasher from "./Sections/InfoAboveWasher/InfoAboreWasher";
 import Suport from "./Sections/Suport/Suport";
 import './HomePage.css';
-import { useEffect, useRef } from "react";
+import { useRef } from "react";
 
 export default function HomePage() {
 
-  const homePageRef = useRef(null) as any
+  const homePageRef = useRef(null) as any;
   
   return (
     <section id="homePage" ref={homePageRef}>

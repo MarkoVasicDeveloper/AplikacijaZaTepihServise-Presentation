@@ -13,7 +13,6 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import axios from 'axios';
 import "./singUp.css";
-import { Config } from "../../Config/config";
 import InputField from "./Input/InputField";
 
 export default function SingUp() {
@@ -43,7 +42,7 @@ export default function SingUp() {
       password === ""
     ) return setRequired("Sva polja moraju biti popunjena!");
 
-    const addUser = await axios.post(`${Config.baseUrl}api/user/addUser`, {
+    const addUser = await axios.post(`${process.env.REACT_APP_BASE_URL}api/user/addUser`, {
       email: email,
       password: password,
       name: name,
