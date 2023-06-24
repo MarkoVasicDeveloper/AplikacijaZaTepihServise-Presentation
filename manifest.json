@@ -1,0 +1,9 @@
+{
+  "short_name": "Washer software",
+  "name": "Softver za tepih servise",
+  "icons": [],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/AppForCarpetService-Presentation/static/css/main.093a9113.css",
+    "main.js": "/AppForCarpetService-Presentation/static/js/main.983794c2.js",
+    "static/js/787.cd203a3c.chunk.js": "/AppForCarpetService-Presentation/static/js/787.cd203a3c.chunk.js",
+    "static/media/background-log-in-mini.webp": "/AppForCarpetService-Presentation/static/media/background-log-in-mini.313fbe875f43a252a62a.webp",
+    "static/media/hero-bg.webp": "/AppForCarpetService-Presentation/static/media/hero-bg.3613076e67de7be7c37f.webp",
+    "static/media/mini_Login.webp": "/AppForCarpetService-Presentation/static/media/mini_Login.303d0df64b15ce58089c.webp",
+    "static/media/mini_SingUp.webp": "/AppForCarpetService-Presentation/static/media/mini_SingUp.04b2f052dbec3b9296aa.webp",
+    "static/media/pattern.webp": "/AppForCarpetService-Presentation/static/media/pattern.4fa663a0b527bd57e699.webp",
+    "static/media/mini_MeasuringAndPreparingCarpet.webp": "/AppForCarpetService-Presentation/static/media/mini_MeasuringAndPreparingCarpet.408c1d6103882e337de3.webp",
+    "static/media/mini_CarpetReception.webp": "/AppForCarpetService-Presentation/static/media/mini_CarpetReception.04f6dee0b45a11b5c20e.webp",
+    "static/media/mini_Scheduling.webp": "/AppForCarpetService-Presentation/static/media/mini_Scheduling.100cb428bf7e1141f084.webp",
+    "static/media/mini_Analysis.webp": "/AppForCarpetService-Presentation/static/media/mini_Analysis.4f7c33852383065b0660.webp",
+    "static/media/mini_DeliveringList.webp": "/AppForCarpetService-Presentation/static/media/mini_DeliveringList.427a126447a48e9eeacd.webp",
+    "static/media/mini_DownloadList.webp": "/AppForCarpetService-Presentation/static/media/mini_DownloadList.17f14a26a99414abb2fb.webp",
+    "index.html": "/AppForCarpetService-Presentation/index.html",
+    "main.093a9113.css.map": "/AppForCarpetService-Presentation/static/css/main.093a9113.css.map",
+    "main.983794c2.js.map": "/AppForCarpetService-Presentation/static/js/main.983794c2.js.map",
+    "787.cd203a3c.chunk.js.map": "/AppForCarpetService-Presentation/static/js/787.cd203a3c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.093a9113.css",
+    "static/js/main.983794c2.js"
+  ]
+}
